@@ -109,6 +109,17 @@ function checkAnswer(currentLevel) {
 
         //3. Change the h1 title to say "Game Over, Press Any Key to Restart" if the user got the answer wrong.
         $("#level-title").text("Game Over, Press Any Key to Restart");
+        startOver();
     }
+
+}
+
+
+function startOver() {
+
+    //3. Inside this function, you'll need to reset the values of level, gamePattern and started variables.
+    level = 0;
+    gamePattern = [];
+    started = false;
 
 }
